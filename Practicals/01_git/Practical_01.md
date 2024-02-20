@@ -42,7 +42,7 @@
    - Students to fill the lines below, commit and push the changes
    
          Year of study: 4
-         Number of lectures today: 4
+         Number of lectures today: too much
 
 # Other tools
 
