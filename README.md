@@ -26,7 +26,7 @@ This repository contains materials to the Data Science 2 - NMFP436 course.
 To receive the course credit, students must successfully work out two home assignments, 
 one will be focused on decision trees and the other one on neural networks. 
 There are only two assignments, but they will be complex and require considerable amount of work. 
-Deatils will be published later in the semester.
+Details will be published later in the semester.
 
 ## How to set-up your python environment
 
@@ -64,7 +64,7 @@ which python3
 
 - install python 3.10.9 by downloading [python for windows], [python for mac] or by using your package manager on linux and make sure that you select both
 
-> Note: you may be asked during the installation if you want to install luncher for all users and if you want to add python.exe to PATH. We recommend doing so but it is not necessary for the steps below.
+> Note: you may be asked during the installation if you want to install launcher for all users and if you want to add python.exe to PATH. It is necessary for the steps below to tick 'yes'.
 
 - check the path of your python installation as above (either 'where' or 'which' commands), you will get a list of paths and the correct one is the one containing python310, i.e. in my case the python.exe file is stored in
 
@@ -150,7 +150,7 @@ conda install -c apple tensorflow-deps==2.8.0
 pip install tensorflow-macos==2.9.0
 pip install protobuf==3.19.6 chaid==5.4.1 numpy==1.26.3 pandas==2.2.0 jupyterlab==4.0.11 tqdm==4.66.1 pathlib==1.0.1 scikit-learn==1.4.0 matplotlib==3.8.2 seaborn==0.13.1 datetime==5.4 xgboost==2.0.3 pydot==1.4.2 graphviz==0.16.0 mtcnn==0.1.1 pillow==10.2.0 tensorflow-datasets==4.8.3 scipy==1.12.0 hyperopt==0.2.7 keras-tuner==1.4.6 ipywidgets==8.1.1  pyarrow==15.0.0 shap==0.44.1
 ```
-- whenever you want to start working you need to activate the environment and open jupyter lab as follows
+- whenever you want to start working you need to activate the environment and open jupyter lab as follows (the first two lines should not be run if your environment is already activated)
 ```sh
 source ~/miniforge3/bin/activate
 conda activate .venv
